@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    Student Name: Sample
+    File Name: video.html
+    Date: Summer 2026
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid"> <!-- extends across viewport in all views -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top"> <!-- fixed top, dark bg, white text -->
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Wreath Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <span style="color: #fff">
+                            Crafting Holiday Magic<br>
+                            One Wreath at a Time!
+                        </span>
+                    </li>
+                </ul>
+				
+                <!-- search form -->
+                <form class="d-flex" action="#">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-success" type="button">Search</button>
+                </form>
+			</div>
+		</nav>
+		
+    </div>
+	
+	<div class="container"> <!-- starts main navbar class -->
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark mt-3">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">Home</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="supplies.html">Supplies</a></li>
+						<li class="nav-item"><a class="nav-link" href="wreath.html">Make a Wreath</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="decorations.html" role="button" 	data-bs-toggle="dropdown">Decorations</a>					
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item text-success" href="decorations.html">Decorating a Wreath</a></li>
+								<li><a class="dropdown-item text-success" href="decorations.html#pinecone">Pinecone Clusters</a></li>
+								<li><a class="dropdown-item text-success" href="decorations.html#berry">Berry Bunches</a></li>
+								<li><a class="dropdown-item text-success" href="decorations.html#bow">Handcrafted Bows</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="specialty.html">Specialty</a></li>
+						<li class="nav-item">
+							<a class="nav-link" href="faqs.html">FAQS</a></li>
+						<li class="nav-item">
+							<a class="nav-link" href="gallery.html">Gallery</a></li>		
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a></li>		
+					</ul>
+				</div>
+			</div>
+		</nav> 
+	</div> <!--ends container class -->
+
+	<!--Dynamic Content Section-->
+	<!-- background color of white with rounded corners -->
+	<div class="container text-bg-light rounded mb-5">
+		<div id="title" class="p-3">
+			<h1 class="text-center bg-success text-white">Video on How to Make a Balsam Fir Wreath</h1>
+		</div> <!-- ends div for title -->
+		<!--start main division for dynamic content -->
+		<main>	
+			<video controls poster="media/wreath_video.png">
+				<source src="media/How To Make A Balsam Fir Christmas Wreath.mp4" type="video/mp4">
+				<p> Your browser does not support the video element</p>
+			</video>
+		</main><!--end main div for dynamic content -->
+	</div>
+	
+	<div class="container-fluid bg-dark">
+		<footer class="mt-3 mb-3">
+			<div class="d-flex align-items-center">
+				<div class="p-2 flex-fill">
+					<p class = "text-white text-center">Useful Links</p>
+					<p class = "text-success text-center"><a href = "https://www.maine.gov/dacf/php/horticulture/wreaths.shtml" target="_blank"><span class="text-success"> Shipping Wreaths and Trees</span></a></p>
+					<p class = "text-success text-center"><a href = "https://www.wreathsacrossamerica.org/" target=	"_blank"><span class="text-success"> Wreaths Across America</span></a></p>
+				</div>
+				<div class="p-2 mt-2 flex-fill text-center text-success"><img src= "images/wreath_icon.png"><br>Creating Beauty, Sharing Faith, <br>One Wreath at a Time</div>
+				<div class="p-2  flex-fill">
+					<p class = "text-center text-white">Contact Us</p>
+					<p class = " text-center text-success">Email: dkokoska@maine.edu</p>
+					<p class = " text-center text-success">Phone: dkokoska@maine.edu</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+    <!-- Bootstrap 5 js bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	
+</body>
+</html>

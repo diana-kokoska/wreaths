@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+   Student Name: Sample
+    File Name: about.html
+    Date: Summer 2026
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Maine Handcrafted Christmas Wreaths</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid"> <!-- extends across viewport in all views -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top"> <!-- fixed top, dark bg, white text -->
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Wreath Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <span style="color: #fff">
+                            Crafting Holiday Magic<br>
+                            One Wreath at a Time!
+                        </span>
+                    </li>
+                </ul>
+				
+                <!-- search form -->
+                <form class="d-flex" action="#">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-success" type="button">Search</button>
+                </form>
+			</div>
+		</nav>
+				
+				
+		<!-- Carousel -->
+		<div id="carousel" class="carousel slide mt-3 pt-5 mb-3" data-bs-ride="carousel">
+
+			<!-- Indicators/dots -->
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+				<button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+				<button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+			</div>
+
+			<!-- The slideshow/carousel -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="images/Carousel_Wreath.png" alt="" class="d-block w-100">
+				</div>
+				<div class="carousel-item">
+					<img src="images/Carousel_Bows.png" alt="" class="d-block w-100">
+				</div>
+				<div class="carousel-item">
+					<img src="images/Carousel_Specialty.png" alt="" class="d-block w-100">
+				</div>
+			</div>
+
+			<!-- Left and right controls/icons -->
+			<button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</button>
+		</div>
+    </div>
+	
+	<div class="container"> <!-- starts main navbar class -->
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">Home</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="supplies.html">Supplies</a></li>
+						<li class="nav-item"><a class="nav-link" href="wreath.html">Make a Wreath</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="decorations.html" role="button" 	data-bs-toggle="dropdown">Decorations</a>					
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item text-success" href="decorations.html">Decorating a Wreath</a></li>
+								<li><a class="dropdown-item text-success" href="decorations.html#pinecone">Pinecone Clusters</a></li>
+								<li><a class="dropdown-item text-success" href="decorations.html#berry">Berry Bunches</a></li>
+								<li><a class="dropdown-item text-success" href="decorations.html#bow">Handcrafted Bows</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="specialty.html">Specialty</a></li>
+						<li class="nav-item">
+							<a class="nav-link" href="faqs.html">FAQS</a></li>
+						<li class="nav-item">
+							<a class="nav-link" href="gallery.html">Gallery</a></li>		
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a></li>		
+					</ul>
+				</div>
+			</div>
+		</nav> 
+	</div> <!--ends container class -->
+
+	<!--Dynamic Content Section-->
+	<!-- background color of white with rounded corners -->
+	<div class="container text-bg-light rounded mb-5">
+		<div id="title" class="p-3">
+			<h1 class="text-center bg-success text-white">About Christmas Wreaths</h1>
+		</div> <!-- ends div for title -->
+		<!--start main division for dynamic content -->
+		<main>
+        <!-- begins div for flexbox -->
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+				
+            <!-- Column 1: Text -->
+            <div class="p-3 flex-fill order-1 order-md-0">
+                <div class="flex-items">
+                    <p>Handcrafted Christmas wreaths are an important part of the state's holiday traditions, combining the region's rich natural resources with local craftsmanship. These wreaths are made from the freshest evergreens, including balsam fir, pine, spruce, and cedar which are abundant in Maine's forests. The artisans who create these wreaths take great pride in selecting and arranging the branches to ensure each one is not only beautiful but also full of texture and fragrance. The Balsam Fir is perhaps the most widely used because of its strong, aromatic scent, which fills the home with a fresh, evergreen fragrance. Local wreath makers often embellish the wreaths with other natural elements such as pinecones, berries, and  reindeer moss.</p>
+                    <p>These wreaths are not only a festive addition to any holiday decor but also highlight Maine's rural charm and natural beauty. From simple, rustic designs to more elegant creations, Maine's handcrafted Christmas wreaths are cherished by those who appreciate the artistry and seasonal spirit that goes into each holiday wreath.</p>
+                </div>
+            </div>
+			
+            <!-- Column 2: Image -->
+            <div class="col-md-6 col-12">
+                <div class="p-3 flex-fill text-center order-0 order-md-1">
+                    <img src="images/about_wreath.png" class="rounded img-fluid" alt="Internship Image" />
+                </div>
+            </div>
+        </div> <!-- ends div for d-flex -->
+	</div> <!--end main div for dynamic content -->		
+	
+	<div class="container-fluid bg-dark">
+		<footer class="mt-3 mb-3">
+			<div class="d-flex align-items-center">
+				<div class="p-2 flex-fill">
+					<p class = "text-white text-center">Useful Links</p>
+					<p class = "text-success text-center"><a href = "https://www.maine.gov/dacf/php/horticulture/wreaths.shtml" target="_blank"><span class="text-success"> Shipping Wreaths and Trees</span></a></p>
+					<p class = "text-success text-center"><a href = "https://www.wreathsacrossamerica.org/" target=	"_blank"><span class="text-success"> Wreaths Across America</span></a></p>
+				</div>
+				<div class="p-2 mt-2 flex-fill text-center text-success"><img src= "images/wreath_icon.png"><br>Creating Beauty, Sharing Faith, <br>One Wreath at a Time</div>
+				<div class="p-2  flex-fill">
+					<p class = "text-center text-white">Contact Us</p>
+					<p class = " text-center text-success">Email: dkokoska@maine.edu</p>
+					<p class = " text-center text-success">Phone: dkokoska@maine.edu</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	</main>
+	
+    <!-- Bootstrap 5 js bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	
+</body>
+</html>

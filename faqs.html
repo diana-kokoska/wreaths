@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    Student Name: Sample
+    File Name: faqs.html
+    Date: Summer 2026
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid"> <!-- extends across viewport in all views -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top"> <!-- fixed top, dark bg, white text -->
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Wreath Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <span style="color: #fff">
+                            Crafting Holiday Magic<br>
+                            One Wreath at a Time!
+                        </span>
+                    </li>
+                </ul>
+				
+                <!-- search form -->
+                <form class="d-flex" action="#">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-success" type="button">Search</button>
+                </form>
+			</div>
+		</nav>
+				
+				
+		<!-- Carousel -->
+		<div id="carousel" class="carousel slide mt-3 pt-5 mb-3" data-bs-ride="carousel">
+
+			<!-- Indicators/dots -->
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+				<button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+				<button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+			</div>
+
+			<!-- The slideshow/carousel -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="images/Carousel_Wreath.png" alt="" class="d-block w-100">
+				</div>
+				<div class="carousel-item">
+					<img src="images/Carousel_Bows.png" alt="" class="d-block w-100">
+				</div>
+				<div class="carousel-item">
+					<img src="images/Carousel_Specialty.png" alt="" class="d-block w-100">
+				</div>
+			</div>
+
+			<!-- Left and right controls/icons -->
+			<button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</button>
+		</div>
+    </div>
+	
+	<div class="container"> <!-- starts main navbar class -->
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">Home</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="supplies.html">Supplies</a></li>
+						<li class="nav-item"><a class="nav-link" href="wreath.html">Make a Wreath</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="decorations.html" role="button" 	data-bs-toggle="dropdown">Decorations</a>					
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item text-success" href="decorations.html">Decorating a Wreath</a></li>
+								<li><a class="dropdown-item text-success" href="decorations.html#pinecone">Pinecone Clusters</a></li>
+								<li><a class="dropdown-item text-success" href="decorations.html#berry">Berry Bunches</a></li>
+								<li><a class="dropdown-item text-success" href="decorations.html#bow">Handcrafted Bows</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="specialty.html">Specialty</a></li>
+						<li class="nav-item">
+							<a class="nav-link" href="faqs.html">FAQS</a></li>
+						<li class="nav-item">
+							<a class="nav-link" href="gallery.html">Gallery</a></li>		
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a></li>		
+					</ul>
+				</div>
+			</div>
+		</nav> 
+	</div> <!--ends container class -->
+
+	<!--Dynamic Content Section-->
+	<!-- background color of white with rounded corners -->
+	<div class="container text-bg-light rounded mb-5">
+		<div id="title" class="p-3">
+			<h1 class="text-center bg-success text-white">Frequently Asked Questions</h1>
+		</div> <!-- ends div for title -->
+		<!--start main division for dynamic content -->
+		<main>
+			<div class = "container">
+				<p>Welcome to our Frequently Asked Questions (FAQ) page about the Balsam Fir Wreath industry in Maine! Maine’s iconic Balsam Fir trees are not only a hallmark of the state’s natural beauty, but they also play a central role in its economy, especially during the holiday season. For generations, Maine’s wreath makers have been crafting high-quality, fragrant Balsam Fir wreaths that have become a beloved tradition in homes across the country. Whether you're curious about the wreath-making process, the environmental benefits of Balsam Fir, or how Maine’s wreath industry supports local communities, this page will provide you with all the information you need.</p>
+			
+			<div id="accordion">
+				<div class="card">
+					<div class="card-header">
+						<a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+							1. Why are wreaths made in Maine so popular?
+						</a>
+					</div>
+					<div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+						<div class="card-body">
+							<ul>
+								<li>Aroma and Freshness: Balsam fir  has a strong, fragrant aroma, which is why many people want Maine wreaths at Christmas time..</li>	
+								<li>Strong Fir: Fir trees are plentiful in Maine and are considered some of the finest in the world.  They grow better in the Maine climate than in other areas.</li>
+								<li>Sustainability:  Maine fir growers make sure that when fir trees are used for Christmas wreath, new seedlings are planted to keep the resource plentiful. </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-header">
+						<a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+							2. When do wreath makers start working in Maine?
+						</a>
+					</div>
+					<div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+						<div class="card-body">
+							<ul>
+								<li>Harvesting:  You can only harvest fir tips in the late fall (October-December), after needles are "set."  Once the needles are "set", the balsam fir tree stops growing until later in the Spring. Balsam fir tips would lose their needles very quickly if the tips were harvested before this time.  Local Mainers will tell 'ya' that you have two have at least three consecutive nights of below freezing temperatures before you can harvest fir tips.</li>
+								<li>Peak Season: Most wreath makers craft wreaths around the holiday months, particularly November and December,  as they are used for Christmas decorations, but wreaths can be sold at other times for special occasions. </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-header">
+						<a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+							3. Where can I buy Maine wreaths?
+						</a>
+					</div>
+					<div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+						<div class="card-body">
+							<ul>
+								<li>Online: Many Maine wreath makers sell their wreaths directly in an online storefront.  </li>	
+								<li>Outdoor Markets: During the holiday season in Maine, many wreath crafters sell their product at holiday craft fairs.  It would not be unusual to see roadside stands with wreath makers selling hand-made wreaths along with Christmas trees..</li>
+								<li>Local Supermarkets”  Many of the local grocery stores (such as Hannaford and Shaw’s) sell Christmas wreaths along with other holiday greenery.  You might also find Christmas wreaths in major stores such as Sam’s Club or Bj’s.</li>
+								<li>Specialty Stores: Local gift shops, home décor stores (such as Lowes or Home Depot), and garden centers (such as local nurseries) also sell Maine-made wreaths, especially during the holiday season.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="card">
+					<div class="card-header">
+						<a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+							4. How much will a Maine-made wreath cost me?
+						</a>
+					</div>
+					<div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+						<div class="card-body">
+							<ul>
+								<li>Wreath Prices: You might expect to pay from $20 to $50 for a 12-18-inch  wreath. If you want something larger, you can expect to pay upwards of $100.</li>
+								<li>Decorated Wreaths: Wreaths with special decorations (e.g., ribbons, hand-crafted bows, snow-sprinkled pinecones, holiday berries) can cost anywhere from $40 to $100 or more, depending on the size and special design (crosses, candy-canes, or stars).</li>
+							</ul>
+						</div>
+					</div>
+				</div>	
+
+				<div class="card">
+					<div class="card-header">
+						<a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+							5. Are Maine wreaths okay for the environment?
+						</a>
+					</div>
+					<div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+						<div class="card-body">
+							<ul>
+								<li>Yes, most wreath makers in Maine use fir tips that come from trees that has been grown in Maine forests and decorate with biodegradable materials. Some wreaths are decorated with moss, pinecones, and fresh Maine berries. Pine or cedar tips are often added to the wreath to add texture and fragrance..</li>
+							</ul>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</main>
+	</div> <!--end main div for dynamic content -->
+	
+	<div class="container-fluid bg-dark">
+		<footer class="mt-3 mb-3">
+			<div class="d-flex align-items-center">
+				<div class="p-2 flex-fill">
+					<p class = "text-white text-center">Useful Links</p>
+					<p class = "text-success text-center"><a href = "https://www.maine.gov/dacf/php/horticulture/wreaths.shtml" target="_blank"><span class="text-success"> Shipping Wreaths and Trees</span></a></p>
+					<p class = "text-success text-center"><a href = "https://www.wreathsacrossamerica.org/" target=	"_blank"><span class="text-success"> Wreaths Across America</span></a></p>
+				</div>
+				<div class="p-2 mt-2 flex-fill text-center text-success"><img src= "images/wreath_icon.png"><br>Creating Beauty, Sharing Faith, <br>One Wreath at a Time</div>
+				<div class="p-2  flex-fill">
+					<p class = "text-center text-white">Contact Us</p>
+					<p class = " text-center text-success">Email: dkokoska@maine.edu</p>
+					<p class = " text-center text-success">Phone: dkokoska@maine.edu</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+    <!-- Bootstrap 5 js bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	
+</body>
+</html>

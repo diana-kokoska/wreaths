@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    Student Name: Sample
+    File Name: specialty.html
+    Date: Summer 2026
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Holiday Creations</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid"> <!-- extends across viewport in all views -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top"> <!-- fixed top, dark bg, white text -->
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Wreath Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <span style="color: #fff">
+                            Crafting Holiday Magic<br>
+                            One Wreath at a Time!
+                        </span>
+                    </li>
+                </ul> 
+				
+                <!-- search form -->
+                <form class="d-flex" action="#">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-success" type="button">Search</button>
+                </form>
+			</div>
+		</nav>
+				
+				
+		<!-- Carousel -->
+		<div id="carousel" class="carousel slide mt-3 pt-5 mb-3" data-bs-ride="carousel">
+
+			<!-- Indicators/dots -->
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+				<button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+				<button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+			</div>
+
+			<!-- The slideshow/carousel -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="images/Carousel_Wreath.png" alt="" class="d-block w-100">
+				</div>
+				<div class="carousel-item">
+					<img src="images/Carousel_Bows.png" alt="" class="d-block w-100">
+				</div>
+				<div class="carousel-item">
+					<img src="images/Carousel_Specialty.png" alt="" class="d-block w-100">
+				</div>
+			</div>
+
+			<!-- Left and right controls/icons -->
+			<button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</button>
+		</div>
+    </div>
+	
+	<div class="container"> <!-- starts main navbar class -->
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">Home</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="supplies.html">Supplies</a></li>
+						<li class="nav-item"><a class="nav-link" href="wreath.html">Make a Wreath</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="decorations.html" role="button" 	data-bs-toggle="dropdown">Decorations</a>					
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item text-success" href="decorations.html">Decorating a Wreath</a></li>
+								<li><a class="dropdown-item text-success" href="decorations.html#pinecone">Pinecone Clusters</a></li>
+								<li><a class="dropdown-item text-success" href="decorations.html#berry">Berry Bunches</a></li>
+								<li><a class="dropdown-item text-success" href="decorations.html#bow">Handcrafted Bows</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="specialty.html">Specialty</a></li>
+						<li class="nav-item">
+							<a class="nav-link" href="faqs.html">FAQS</a></li>
+						<li class="nav-item">
+							<a class="nav-link" href="gallery.html">Gallery</a></li>		
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a></li>		
+					</ul>
+				</div>
+			</div>
+		</nav> 
+	</div> <!--ends container class -->
+
+	<!--Dynamic Content Section-->
+	<!-- background color of white with rounded corners -->
+	<div class="container text-bg-light rounded mb-5">
+		<div id="title" class="p-3">
+			<h1 class="text-center bg-success text-white">Special Holiday Creations</h1>
+		</div> <!-- ends div for title -->
+		<!--start main division for dynamic content -->
+		<main>
+			<div class = "container">
+				<p>Balsam fir boughs, with their rich green color and fresh, fragrant scent, are a timeless favorite for creating beautiful holiday decorations. These versatile branches can be crafted into a variety of specialty items that bring warmth and festive cheer to any decor. From elegant centerpieces and rustic wagon wheels to whimsical candy cane wreaths and symbolic crosses, balsam fir adds a natural, earthy touch to holiday decor. For a nostalgic flair, miniature vintage black pickup trucks and charming little red wagons filled with fir boughs make for delightful, seasonal accents. Whether used to symbolize faith, celebrate tradition, or capture the spirit of the season, these handcrafted pieces are sure to enhance any holiday setting.</p>
+			
+			<div id="accordion">
+				<!-- Vintage Black Truck -->
+				<div class="card">
+					<div class="card-header">
+						<a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+							1. Vintage Black Truck
+						</a>
+					</div>
+					<div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-6 d-flex align-middle">
+									<div class="flex-items align-content-center">
+										<p>Picture a charming old-fashioned Christmas arrangement featuring a vintage black pickup truck with an open bed filled with lush balsam fir branches. The braches spill out slightly from the truck bed, adding a touch of natural fullness while the deep green needles contrast beautifully against the truck's dark exterior. Nestled among the greenery are vibrant red poinsettias, their petals adding a pop of festive color. Scattered throughout the boughs are rustic pinecones, their earthy texture giving the scene a cozy, wintery feel.</p>
+										<p>At the front of the truck, nestled just behind the cab, is a handcrafted bow made from a beige fabric ribbon. The ribbon is adorned with subtle black trucks, giving it a unique and complementary touch. The entire scene radiates a rustic, holiday spirit, evoking warmth and nostalgia.</p>
+									</div>
+								</div>
+								<div class="col-md-6 d-flex justify-content-center">
+									<div class="flex-items align-content-center">
+										<img src="images/specialtytruck.png" alt="specialty truck">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Little Red Wagon -->
+				<div class="card">
+					<div class="card-header">
+						<a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+							2. Little Red Wagon
+						</a>
+					</div>
+					<div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-6 d-flex align-middle">
+									<div class="flex-items align-content-center">
+										<p>This holiday decoration features a cheerful little red wagon overflowing with fragrant balsam fir boughs. The vibrant green needles spill from the wagon's bed, creating a lush and inviting holiday centerpiece. Nestled among the branches are bright red berries and pinecones for a natural, wintry touch.</p>
+										<p>Perched on top is a large bow with a festive red-and-black plaid design, giving the arrangement a rustic charm. This nostalgic piece evokes warm childhood memories and brings a sense of joy to any room.</p>
+									</div>
+								</div>
+								<div class="col-md-6 d-flex justify-content-center">
+									<div class="flex-items align-content-center">
+										<img src="images/specialtywagon.png" alt="specialty wagon">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Candy Cane Wreath -->
+				<div class="card">
+					<div class="card-header">
+						<a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+							3. Candy Cane Wreath
+						</a>
+					</div>
+					<div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-6 d-flex align-middle">
+									<div class="flex-items align-content-center">
+										<p>Shaped like a candy cane, this wreath brings a sweet twist to traditional holiday decor. Handcrafted with fresh balsam fir, the wreath’s curve is accentuated by red ribbon wrapped diagonally across the greenery to mimic the classic candy cane stripes.</p>
+										<p>Accents like white berries, pinecones, and a coordinating red-and-white bow add festive charm. It’s a playful yet elegant decoration perfect for doors or entryways.</p>
+									</div>
+								</div>
+								<div class="col-md-6 d-flex justify-content-center">
+									<div class="flex-items align-content-center">
+										<img src="images/specialtycandycane.png" alt="candy cane wreath">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Cross -->
+				<div class="card">
+					<div class="card-header">
+						<a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+							4. Cross
+						</a>
+					</div>
+					<div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-6 d-flex align-middle">
+									<div class="flex-items align-content-center">
+										<p>Symbolic and heartfelt, this cross-shaped decoration is crafted entirely from fragrant balsam fir boughs. The shape is carefully formed and bound, maintaining clean lines and a full, even texture.</p>
+										<p>Adorned with a rich burgundy bow and gold ribbon, this piece conveys a message of peace and remembrance, making it a meaningful addition to holiday traditions.</p>
+									</div>
+								</div>
+								<div class="col-md-6 d-flex justify-content-center">
+									<div class="flex-items align-content-center">
+										<img src="images/specialtycross.png" alt="specialty cross">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Centerpiece -->
+				<div class="card">
+					<div class="card-header">
+						<a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+							5. Centerpiece
+						</a>
+					</div>
+					<div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-6 d-flex align-middle">
+									<div class="flex-items align-content-center">
+										<p>This elegant holiday centerpiece features a lush arrangement of balsam fir, accented with white pine and cedar. Pinecones and red berries are nestled within the branches for a classic holiday look.</p>
+										<p>A festive bow with gold accents adds a touch of sparkle. Designed for tabletops or mantels, this arrangement brings the beauty of the forest indoors during the holiday season.</p>
+									</div>
+								</div>
+								<div class="col-md-6 d-flex justify-content-center">
+									<div class="flex-items align-content-center">
+										<img src="images/specialtycenterpiece.png" alt="holiday centerpiece">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Wagon Wheel -->
+				<div class="card">
+					<div class="card-header">
+						<a class="collapsed btn" data-bs-toggle="collapse" href="#collapseSix">
+							6. Wagon Wheel
+						</a>
+					</div>
+					<div id="collapseSix" class="collapse" data-bs-parent="#accordion">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-6 d-flex align-middle">
+									<div class="flex-items align-content-center">
+										<p>For a rustic touch, this unique piece features a decorative wagon wheel embellished with fresh balsam fir. The greenery is artfully placed to highlight the wheel’s structure without overpowering it.</p>
+										<p>Accents like pinecones, berries, and a bold red bow complete the look. Perfect for farmhouse or country-style decor, it’s a creative way to celebrate the season with natural charm.</p>
+									</div>
+								</div>
+								<div class="col-md-6 d-flex justify-content-center">
+									<div class="flex-items align-content-center">
+										<img src="images/specialtywagonwheel.png" alt="wagon wheel decor">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div> <!--end main div for dynamic content -->
+	
+	<div class="container-fluid bg-dark">
+		<footer class="mt-3 mb-3">
+			<div class="d-flex align-items-center">
+				<div class="p-2 flex-fill">
+					<p class = "text-white text-center">Useful Links</p>
+					<p class = "text-success text-center"><a href = "https://www.maine.gov/dacf/php/horticulture/wreaths.shtml" target="_blank"><span class="text-success"> Shipping Wreaths and Trees</span></a></p>
+					<p class = "text-success text-center"><a href = "https://www.wreathsacrossamerica.org/" target=	"_blank"><span class="text-success"> Wreaths Across America</span></a></p>
+				</div>
+				<div class="p-2 mt-2 flex-fill text-center text-success"><img src= "images/wreath_icon.png"><br>Creating Beauty, Sharing Faith, <br>One Wreath at a Time</div>
+				<div class="p-2  flex-fill">
+					<p class = "text-center text-white">Contact Us</p>
+					<p class = " text-center text-success">Email: dkokoska@maine.edu</p>
+					<p class = " text-center text-success">Phone: dkokoska@maine.edu</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+    <!-- Bootstrap 5 js bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	
+</body>
+</html>
